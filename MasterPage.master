@@ -1,0 +1,72 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_zdrqxg4u" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+ <div id="templatemo_container">
+
+<div id="templatemo_menu">
+    	<ul>
+            <li><a href="Home.aspx" class="current">Home</a></li>
+            <li><a href="tour.aspx">Tour Packages</a></li>
+            <li><a href="Hotels.aspx">Hotels</a></li>
+            <li><a href="about.aspx">About</a></li>
+            <li><a href="contact.aspx">Contact</a></li>
+            <li><a href="login.aspx">Login</a></li>
+        </ul>
+    </div>
+
+	<div id="templatemo_banner">
+    	
+        <div id="site_title">
+            <h1><a href="Home.aspx" target="_parent">
+            	<!--  Travel Site  <span>free css template</span>  -->
+                <img src="images/templatemo_logo.png" alt="free css template" /><span>Creating happy travellers</span>
+            </a></h1>
+        </div>
+        
+        <div id="search_box">
+            <form id="form1" runat="server">
+                <asp:textbox type="text" value="Enter keyword here..." name="q" size="10" id="searchfield" title="searchfield" onfocus="clearText(this)" onblur="clearText(this)" runat="server" ></asp:textbox>
+                <asp:Button type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" runat="server" OnClick="searchbutton_Click" >
+                </asp:Button>
+                
+            </form>
+        </div>
+    
+    </div>
+
+    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div>
+<div id="templatemo_footer">
+
+        <ul class="footer_menu">
+			<li><a href="Home.aspx">Home</a></li>
+            
+            <li><a href="Hotels.aspx">Hotels</a></li>
+            <li><a href="tour.aspx">Tour Packages</a></li>
+            
+            <li class="last_menu"><a href="#">Contact</a></li>
+        </ul>
+    
+        Copyright © 2013  | 
+        <a href="Home.aspx" target="_parent">Website Designed</a> by <a href="http://www.facebook.com/pgothwal" target="_parent">Pankaj Gothwal</a>
+        
+    
+    </div>
+        
+    </div>
+     </div>
+</body>
+</html>
