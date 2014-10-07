@@ -292,7 +292,7 @@
                 <p></p>
                 <p>BKBIET,PILANI,RAJASTHAN</p>
                 <p><b>ZIP CODE:</b> 333031</p>
-                <p><b>Phone No:</b> 9461136111</p>
+                <p><b>Phone No:</b> 9529137847</p>
                 <p><b>Office Hours:</b> Monday - Friday, 9am - 6pm (GMT+5:30).</p>
             </td>
         </tr>
